@@ -288,6 +288,10 @@ p {
   .form {
     padding-top: 10px;
   }
+  .first-chuck h1 {
+    font-size: 30px;
+    margin-top: 0;
+  }  
   .first-chuck p {
     display: none;
   }
