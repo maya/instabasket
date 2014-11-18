@@ -402,6 +402,7 @@ ul, ol {
 }
 .button.btn-outline:active {
     transform: translate(1px, 4px);
+    -webkit-transform: translate(1px, 4px);
 }
 .fruits {
   max-width: 300px;
