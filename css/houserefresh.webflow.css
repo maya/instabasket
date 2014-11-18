@@ -189,7 +189,7 @@ p {
   float: right;
 }
 .chunk.chuck-w-padding {
-  padding-top: 30px;
+  padding-top: 0;
 }
 .chunk.chuck-w-padding.first-chuck {
   padding-top: 18px;
