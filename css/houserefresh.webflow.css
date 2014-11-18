@@ -269,12 +269,30 @@ p {
   .w-container {
     padding: 0 20px;
   }  
-  .button.btn-outline.alt-button-outline, .btn-fill, .w-col {
+  .button.btn-outline.alt-button-outline, .btn-fill {
     width: 100%;
   }
   .w-col {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .w-col-4 {
+    width: 33.3333%;
+  }
+  .main-sec {
+    padding-top: 10px;
+  }
+  .test-prog-bar, .chunk.chuck-w-padding.first-chuck {
+    padding-top: 0;
+  }
+  .form {
+    padding-top: 10px;
+  }
+  .first-chuck h1 {
+    font-size: 30px;
+  }
+  .first-chuck p {
+    display: none;
   }
 }
 
