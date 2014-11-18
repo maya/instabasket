@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html data-wf-site="532cb8f39ff60e067100012a">
+<head>
+  <meta charset="utf-8">
+  <title>Instabasket | Fresh, organic fruit delivered to your door</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/houserefresh.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+	families: ["Montserrat:400,700","Open Sans:300,400,600,700,800","Pacifico","Source Sans Pro:200,300,400,600,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+</head>
+<body>
+  <div>
+  <div>
+<!--     <div class="w-nav navbar" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container">
+        <a class="w-nav-brand brand" href="#"></a>
+        <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navlink" href="#">Home</a><a class="w-nav-link navlink" href="#">About</a><a class="w-nav-link navlink" href="#">Contact</a>
+        </nav>
+        <div class="w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="main-sec">
+    <div class="w-container">
+      <p class="logo">Instabasket</p>
+      <div class="test-prog-bar">
+	<div class="house-block">
+
+	  <img class="kiwi" src="images/color-house-parts/kiwi.png">  
+	  <img class="apple" src="images/color-house-parts/apple.png">
+	  <img class="orange" src="images/color-house-parts/orange.png">
+	  <img class="pear" src="images/color-house-parts/pear.png">	  	
+	  <img class="peach" src="images/color-house-parts/peach.png">  	
+	  <img class="banana" src="images/color-house-parts/banana.png">  
+	  <img class="house" src="images/basket.png">
+	  
+	</div>
+      </div>
+      <div class="chunk chuck-w-padding first-chuck" id="select-renovations">
+	<h1>What fruit would you like?</h1>
+	<p>More nutrients and better taste delivered to your door.</p>
+	<div class="w-form">
+	  <form class="form" name="email-form" data-name="Email Form">
+	    <label class="label" for="name">Pick any fruit:</label>
+	    <div class="w-row">
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline apple-btn" href="#">Apple</a>
+	      </div>
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline orange-btn" href="#">Orange</a>
+	      </div>
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline pear-btn" href="#">Pear</a>
+	      </div>
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline banana-btn" href="#">Banana</a>
+	      </div>
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline kiwi-btn" href="#">Kiwi</a>
+	      </div>	 
+	      <div class="w-col w-col-4 item-col"><a class="button btn-outline alt-button-outline peach-btn" href="#">Peach</a>
+	      </div>		           
+	    </div>
+	    <a class="btn-fill" href="#enter-address">fill my basket</a>
+	  </form>
+	</div>
+      </div>
+      <div class="chunk chuck-w-padding ha-waypoint" id="enter-address" data-animate-down="17%" data-animate-up="0%">
+	<h1>Enter your address</h1>
+	<p>Let us know where we should deliver your delicious and nutritious cornucopia.</p>
+	<div class="w-form">
+	  <form class="form" name="email-form" data-name="Email Form">
+	    <label class="label" for="name">Your address:</label>
+	    <input class="w-input field" type="text" placeholder="Enter your address" name="name" data-name="Name"></input><a class="btn-fill" href="#address-confirmed">send my basket</a>
+	  </form>
+	</div>
+      </div>
+    </div>
+    <div class="w-container container container-last">
+      <div class="w-clearfix">
+	<div class="chunk chuck-w-padding ha-waypoint" id="address-confirmed" data-animate-down="34%" data-animate-up="17%">
+	  <h1>Congrats! Your basket is on its way</h1>
+	  <h3 class="alt-h1">Delivery: 143 Castro St. San Francisco, CA&nbsp;91403</h3>
+              <p><strong>You'll be getting a MEDIUM basket for $4.</strong><br> Coming your way is 2 apples, 1 orange, 2 kiwis, and 2 bananas.
+              <br>
+              <br><strong>Thanks for buying organic.</strong>
+              <br>Your basket will nourish you with 300% daily vitamin C, 200% daily vitamin D, released 0 pesticides, and supported 3 local farmers.
+	</div>
+      </div>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <script type="text/javascript" src="js/jquery-waypoints/waypoints.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+     $(".apple-btn").click(function(){
+      $(".apple").fadeToggle("fast","swing");
+      $('.apple-btn').toggleClass("toggle-on");
+    });
+    $(".orange-btn").click(function(){
+      $(".orange").fadeToggle("fast","swing");
+      $('.orange-btn').toggleClass("toggle-on");
+    });
+    $(".pear-btn").click(function(){
+      $(".pear").fadeToggle("fast","swing");
+      $('.pear-btn').toggleClass("toggle-on");
+    });
+    $(".banana-btn").click(function(){
+      $(".banana").fadeToggle("fast","swing");
+      $('.banana-btn').toggleClass("toggle-on");
+    });
+    $(".kiwi-btn").click(function(){
+      $(".kiwi").fadeToggle("fast","swing");
+      $('.kiwi-btn').toggleClass("toggle-on");
+    });     
+    $(".peach-btn").click(function(){
+      $(".peach").fadeToggle("fast","swing");
+      $('.peach-btn').toggleClass("toggle-on");
+    });   
+    $('.ha-waypoint').waypoint(function(direction) {
+
+      var $el = $(this);
+      var percentage = $el.data(direction === 'down' ? 'animateDown' : 'animateUp');
+      $('.waypoint').animate({
+	width: percentage,
+      }, {
+	duration: 300,
+      });
+      $('.progress-percent').html(percentage)
+    }, { offset: '70%' });
+  });
+</script>
+</body>
+</html>
